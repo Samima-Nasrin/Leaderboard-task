@@ -10,7 +10,7 @@ const app = express();
 
 // Enable CORS for frontend
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://leaderboard-mern-muin.onrender.com'],
+  origin: 'https://leaderboard-mern-muin.onrender.com',
 }));
 
 // Middleware to parse incoming JSON requests
