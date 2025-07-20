@@ -9,7 +9,9 @@ dotenv.config();
 const app = express();
 
 // Enable CORS for frontend
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({
+  origin: ['http://localhost:5173', 'https://leaderboard-mern-muin.onrender.com'],
+}));
 
 // Middleware to parse incoming JSON requests
 app.use(express.json()); 
