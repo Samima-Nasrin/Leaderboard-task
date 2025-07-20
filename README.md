@@ -43,3 +43,8 @@ cd leaderboard-mern
 - Fully responsive UI
 - Persistent data with MongoDB
 
+## UI
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3e3db4c6-8962-47cc-8a0f-2a30663a1d32" />
+
+
